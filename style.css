@@ -1,0 +1,99 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.head {
+  background-color: green;
+  width: 150px;
+  height: 75px;
+  margin-left: 710px;
+  margin-top: 180px;
+  border-top-left-radius: 125px;
+  border-top-right-radius: 125px;
+}
+.lefth {
+  position: absolute;
+  width: 23px;
+  height: 76px;
+  top: 280px;
+  display: inline-block;
+  background-color: green;
+  border-radius: 12px;
+  left: 680px;
+  transition: 0.2s all ease-in-out;
+}
+.lefth:hover {
+  transform: rotate(30deg);
+}
+.main {
+  display: block;
+  width: 150px;
+  margin: 10px 708px;
+  height: 130px;
+  background-color: green;
+  border-radius: 0 0 14px 14px;
+}
+
+.righth {
+  position: absolute;
+  display: inline-block;
+  top: 280px;
+  border-radius: 12px;
+  right: 650px;
+  width: 23px;
+  height: 76px;
+  background-color: green;
+  transition: 0.2s all ease-in-out;
+}
+.righth:hover {
+  transform: rotate(-30deg);
+}
+.leftl {
+  position: absolute;
+  display: inline-block;
+  background-color: green;
+  left: 720px;
+  width: 27px;
+  height: 50px;
+  top: 386px;
+  border-radius: 12px;
+  transition: 0.2s all ease-in-out;
+}
+.leftl:hover {
+  transform: rotate(45deg);
+}
+
+.rightl {
+  position: absolute;
+  display: inline-block;
+  background-color: green;
+  right: 690px;
+  top: 386px;
+  width: 27px;
+  height: 50px;
+  border-radius: 12px;
+  transition: 0.2s all ease-in-out;
+}
+.rightl:hover {
+  transform: rotate(-45deg);
+}
+.leye {
+  position: absolute;
+  display: inline-block;
+  background-color: white;
+  left: 752px;
+  top: 212px;
+  width: 9px;
+  height: 9px;
+  border-radius: 125px;
+}
+.reye {
+  position: absolute;
+  display: inline-block;
+  background-color: white;
+  left: 807px;
+  top: 212px;
+  width: 9px;
+  height: 9px;
+  border-radius: 125px;
+}
